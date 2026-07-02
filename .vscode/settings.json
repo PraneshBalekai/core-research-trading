@@ -3,6 +3,7 @@
         "./external",
         "./cio",
         "./core",
-        "./trading"
+        "./trading",
+        "./etl"
     ]
 }

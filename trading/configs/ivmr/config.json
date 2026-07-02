@@ -1,0 +1,8 @@
+{
+    "QQQ": {
+        "etl_config": {
+            "stock": "/Users/praneshbalekai/Desktop/IB_PRD/etl/configs/update_historical_qqq_daily.json",
+            "iv": "/Users/praneshbalekai/Desktop/IB_PRD/etl/configs/update_historical_qqq_iv_daily.json"
+        }
+    }
+}

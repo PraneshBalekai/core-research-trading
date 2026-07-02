@@ -1,0 +1,61 @@
+{
+    "symbols": ["NVDA", "GOOGL", "GOOG", "AAPL", "MSFT", "AMZN", "AVGO", "META", "TSLA", "WMT", "JPM", "LLY", "XOM", "V", "JNJ", "MU",
+    "ORCL", "AMD", "MA", "COST", "NFLX", "CAT", "BAC", "CVX", "ABBV", "CSCO", "PLTR", "HD", "PG", "INTC", "LRCX", "KO", "AMAT", "UNH",
+    "GEV", "MS", "GE", "GS", "MRK", "PM", "TXN", "WFC", "RTX", "KLAC", "AXP", "ANET", "C", "MCD", "PEP", "TMUS", "IBM", "VZ",
+    "NEE", "ADI", "AMGN", "T", "DIS", "BA", "TJX", "TMO", "BLK", "ISRG", "GILD", "ETN", "ABT", "DE", "SCHW", "UNP", "APP",
+    "UBER", "BX", "COP", "PFE", "GLW", "QCOM", "WELL", "CRM", "SNDK", "DELL", "PANW", "BKNG", "LOW", "PLD", "HON", "WDC", "STX",
+    "SPGI", "CB", "SYK", "DHR", "LMT", "PH", "VRT", "COF", "BMY", "PGR", "NEM", "SBUX", "CRWD", "CMCSA", "VRTX", "MO", "EQIX", "ACN",
+    "MDT", "TT", "HCA", "INTU", "SO", "CEG", "CME", "MCK", "CVS", "HWM", "DUK", "MAR", "BSX", "ADBE", "FDX", "PWR", "BK", "WM", "KKR",
+    "UPS", "NOW", "PNC", "CMI", "CVNA", "FCX", "ICE", "CDNS", "USB", "SNPS", "WMB", "GD", "JCI","CSX", "ABNB", "NOC", "MRSH", "AMT",
+    "SHW", "SLB", "MCO", "EMR", "ADP", "ITW", "SPG", "ORLY", "CRH", "REGN", "HOOD", "MPWR", "HLT", "DASH", "MMM", "ECL", "MNST",
+    "ELV", "MSI", "ROST", "CIEN", "MDLZ", "CI", "AEP", "RCL", "DLR", "EOG", "APO", "GM", "CTAS", "KMI", "AON", "NSC", "VLO", "COHR",
+    "WBD", "CL", "TDG","PCAR", "APD", "NKE", "MPC", "TRV", "RSG", "PSX", "BKR", "TFC", "TEL", "LITE", "LHX", "TER", "FIX", "FTNT",
+    "SRE", "URI", "COR", "NXPI", "O", "TGT", "AFL", "AZO", "KEYS", "OXY", "AJG", "ALL", "GWW", "FANG", "D", "OKE", "PSA", "CTVA",
+    "AME", "VST", "COIN", "FAST", "ETR", "TRGP", "GRMN", "CARR", "EA", "F", "NDAQ", "MET", "XEL", "ZTS", "ADSK", "NUE", "EXC", "CAH",
+    "MCHP", "EW", "ODFL", "EBAY", "ROK", "DHI", "FITB", "DAL", "CMG", "IDXX", "CBRE", "PYPL", "WAB", "YUM", "DDOG", "BDX", "MSCI",
+    "STT", "AMP", "KR", "XYZ", "AIG", "ED", "PEG", "TTWO", "HSY", "VTR", "EME", "KDP", "CCI", "HIG", "VMC", "ARES", "ON", "PCG",
+    "WEC", "CCL", "ROP", "EQT", "MLM", "HPE", "SYY", "TKO", "JBL", "LYV", "CHTR", "SATS", "IRM", "LVS", "ACGL", "IBKR", "ADM", "KVUE",
+    "HAL", "HBAN", "IR", "PRU", "FISV", "STLD", "KMB", "CPRT", "PAYX", "GEHC", "NRG", "A", "RMD", "MTB", "EXR", "CBOE", "OTIS",
+    "NTRS", "DOV", "AXON", "AEE", "RJF", "TDY", "EXPE", "ATO", "VICI", "DTE", "UAL", "TPL", "WDAY", "TPR", "WAT", "Q", "DVN", "XYL",
+    "HUBB", "CASY", "PPL", "FE", "CNP", "BIIB", "FOXA", "CFG", "STZ", "EL", "WTW", "EIX", "ROL", "DG", "DOW", "IQV", "FOX", "WRB",
+    "SYF", "AWK", "CTSH", "KHC", "HUM", "CINF", "ES", "CTRA", "MTD", "PPG", "BG", "DXCM", "VRSN", "PHM", "ULTA", "AVB", "RF", "EQR",
+    "KEY", "JBHT", "FIS", "CMS", "WSM", "EXE", "DRI", "TSN", "BRO", "RL", "L", "VRSK", "NI", "SBAC", "LYB", "WST", "ALB",
+    "DGX", "FICO", "CHD", "LH", "STE", "OMC", "TROW", "VLTO", "MRNA", "CHRW", "PFG", "SW", "NTAP", "EFX", "CPAY", "FSLR", "TSCO",
+    "DLTR", "SNA", "EXPD", "CNC", "INCY", "PKG", "GIS", "DD", "GPN", "LUV", "FTV", "LDOS", "CF", "LNT", "EVRG", "AMCR", "HPQ", "IFF",
+    "BR", "ZBH", "IP", "WY", "CDW", "LII", "ESS", "VTRS", "BALL", "LULU", "INVH", "SMCI", "PTC", "KIM", "FFIV", "CSGP", "NDSN",
+    "TXT", "EG", "TRMB", "NWS", "IEX", "GPC", "DECK", "MAS", "MAA", "REG", "J", "HST", "PNR", "HII", "NWSA", "TYL", "BEN", "MKC",
+    "HAS", "AKAM", "ALGN", "APA", "PODD", "BBY", "AVY", "COO", "APTV", "PSKY", "GNRC", "ALLE", "UDR", "PNW", "DPZ",
+    "GL", "HRL", "CLX", "SOLV", "SWK", "DOC", "AIZ", "GEN", "IVZ", "GDDY", "UHS", "WYNN", "ZBRA", "CPT", "JKHY", "TTD", "AES", "BXP",
+    "DVA", "SJM", "MGM", "RVTY", "IT", "BLDR", "FRT", "BAX", "SWKS", "AOS", "HSIC", "POOL", "NCLH", "CRL", "FDS", "TECH", "TAP",
+    "ARE", "MOS", "CAG", "EPAM", "CPB"],
+    "base_config": {
+        "loader_config": {
+            "loader_class": "IBKRHistoricalDataLoader",
+            "contract": {
+                "secType": "STK",
+                "exchange": "SMART",
+                "currency": "USD"
+            },
+            "ibkr_params": {
+                "endDateTime": "@format {this.endDateTime} 09:30:00 US/Eastern",
+                "durationStr": "25 Y",
+                "barSizeSetting": "1 day",
+                "whatToShow": "OPTION_IMPLIED_VOLATILITY",
+                "useRTH": true,
+                "formatDate": 2,
+                "keepUpToDate": false,
+                "chartOptions": []
+            }
+        },
+        "script_config": {
+            "timezone": "US/Eastern",
+            "format_date": "%Y%m%d"
+        },
+        "writer_params": {
+            "output_dir": "/Users/praneshbalekai/Desktop/IB_PRD/data/daily_data/sp500_iv",
+            "append_if_exists": true,
+            "sort_index": true,
+            "deduplicate_index": true
+        }
+    }
+}

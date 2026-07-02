@@ -1,0 +1,34 @@
+{
+    "loader_config": {
+            "loader_class": "IBKRHistoricalDataLoader",
+            "contract": {
+                "symbol": "IYR",
+                "secType": "STK",
+                "exchange": "SMART",
+                "currency": "USD"
+            },
+            "ibkr_params": {
+                "endDateTime": "@format {this.endDateTime} 09:30:00 US/Eastern",
+                "durationStr": "22 Y",
+                "barSizeSetting": "1 day",
+                "whatToShow": "OPTION_IMPLIED_VOLATILITY",
+                "useRTH": true,
+                "formatDate": 2,
+                "keepUpToDate": false,
+                "chartOptions": []
+            }
+    },
+    "script_config": {
+        "timezone": "US/Eastern",
+        "format_date": "%Y%m%d"
+    },
+    "writer_config": {
+        "writer_class": "ParquetWriter",
+        "filename": "/Users/praneshbalekai/Desktop/IB_PRD/data/iyr_iv_daily.parquet",
+        "writer_params": {
+            "append_if_exists": true,
+            "sort_index": true,
+            "deduplicate_index": true
+        }
+    }
+}

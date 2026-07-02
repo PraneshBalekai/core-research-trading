@@ -1,0 +1,33 @@
+{
+    "loader_config": {
+            "loader_class": "IBKRHistoricalDataLoader",
+            "contract": {
+                "symbol": "AAPL",
+                "secType": "STK",
+                "exchange": "SMART",
+                "currency": "USD"
+            },
+            "ibkr_params": {
+                "endDateTime": "@format {this.endDateTime} 09:30:00 US/Eastern",
+                "durationStr": "2 Y",
+                "barSizeSetting": "30 mins",
+                "whatToShow": "OPTION_IMPLIED_VOLATILITY",
+                "useRTH": true,
+                "formatDate": 2,
+                "keepUpToDate": false,
+                "chartOptions": []
+            }
+    },
+    "script_config": {
+        "timezone": "US/Eastern"
+    },
+    "writer_config": {
+        "writer_class": "ParquetWriter",
+        "filename": "/Users/praneshbalekai/Desktop/IB_PRD/data/minute_data/aapl_iv_30m.parquet",
+        "writer_params": {
+            "append_if_exists": false,
+            "sort_index": true,
+            "deduplicate_index": true
+        }
+    }
+}
