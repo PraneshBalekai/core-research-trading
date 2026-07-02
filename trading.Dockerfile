@@ -14,4 +14,4 @@ COPY . .
 WORKDIR /app/trading
 RUN poetry install
 
-ENTRYPOINT ["poetry", "run", "python", "trading/intraday_momentum.py", "--config-path", "configs/intraday_momentum_spy.json", "--docker-run"]
+# ENTRYPOINT ["poetry", "run", "python", "trading/intraday_momentum.py", "--config-path", "configs/intraday_momentum_spy.json", "--docker-run"]
