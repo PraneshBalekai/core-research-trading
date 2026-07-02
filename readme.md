@@ -1,7 +1,7 @@
 # Research - Trading Repository
 
-A python mono-repo with implementations that explore research topics. 
-Integrates with IBKR, Binance APIs to collect data. 
+A python mono-repo with implementations that explore research topics.
+Integrates with IBKR, Binance APIs to collect data.
 
 The goal is to build this into a platform that can run semi-systematic trades;
 
