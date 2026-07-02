@@ -19,4 +19,4 @@ IB_PRD/
 Each sub-package (`cio`, `core`, `etl`, `external`, `trading`) is an independent Python package with its own `pyproject.toml`.
 
 ## Notebooks
-- Findings and exploratory notebooks are under [core/core/notebooks](core/core/notebooks/README.md)
+- Findings and exploratory notebooks are under [core/core/notebooks](core/core/notebooks)
